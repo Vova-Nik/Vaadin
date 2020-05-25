@@ -38,9 +38,15 @@ public class SubPage1 extends Div{
             supl.setText("Button hb Pressed! " + counter);
         });
         add(button_3);
+
         Button button_4 = new Button("Change cont3");
+        button_4.addClassName("button_4");
         add(button_4);
 
+        Div afterAll = new Div();
+        afterAll.addClassName("elem2");
+        afterAll.setText("Its after all div");
+        add(afterAll);
 
     }
 

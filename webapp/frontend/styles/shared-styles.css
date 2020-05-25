@@ -21,3 +21,13 @@ div{
   color: black;
 }
 
+.elem2{
+  width: 500px;
+  height: 48px;
+  background-color: blue;
+  color: white;
+}
+
+.button_4{
+  display: block;
+}
